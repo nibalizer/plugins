@@ -4,9 +4,10 @@ layout: minimal
 ## Table of Contents
 <ul>
   <li><a href="#tools">Tools</a></li>
-{% for tool in site.data.plugins.plugins | sort: tool[0] %}
-  {% assign link = tool[0] | split: ' ' | join: '-' %}
-  <li><a href="#{{link | downcase}}">{{tool[0]}} Plugins</a></li>
+{% assign sorted_toc_tools = site.data.plugins.plugins | sort: 'tool_name' %}
+{% for tool in sorted_toc_tools %}
+  {% assign link = tool.tool_name | split: ' ' | join: '-' %}
+  <li><a href="#{{link | downcase}}">{{tool.tool_name}} Plugins</a></li>
 {% endfor %}
 </ul>
 
@@ -19,7 +20,8 @@ layout: minimal
   </tr>
   </thead>
   <tbody>
-  {% for tool in site.data.plugins.tools | sort: 'name' %}
+  {% assign sorted_tools = site.data.plugins.tools | sort: 'name' %}
+  {% for tool in sorted_tools %}
   <tr>
     <td><a href="{{tool.url}}">{{tool.name}}</a></td>
     <td>{{tool.description}}</td>
@@ -28,8 +30,9 @@ layout: minimal
   </tbody>
 </table>
 
-{% for tool in site.data.plugins.plugins | sort: tool[0] %}
-## {{ tool[0] }}
+{% assign sorted_tools = site.data.plugins.plugins | sort: 'tool_name' %}
+{% for tool in sorted_tools %}
+## {{ tool.tool_name }}
 <table>
   <thead>
   <tr>
@@ -38,7 +41,8 @@ layout: minimal
   </tr>
   </thead>
   <tbody>
-  {% for plugin in tool[1] | sort: 'name' %}
+  {% assign sorted_plugins = tool.plugins | sort: 'name' %}
+  {% for plugin in sorted_plugins %}
   <tr>
     <td><a href="{{plugin.url}}">{{plugin.name}}</a></td>
     <td>{{plugin.description}}</td>
