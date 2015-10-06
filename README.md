@@ -71,3 +71,4 @@ This is a Puppet Community curated list of plugins for Puppet and related toolin
 | Plugin Link | Description |
 | ---         | ---         |
 | [guard-puppet-lint](https://github.com/alister/guard-puppet-lint) | As Puppet manifest files change, run puppet-lint on them. |
+changes
