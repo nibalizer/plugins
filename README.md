@@ -3,8 +3,17 @@
 This is a Puppet Community curated list of plugins for Puppet and related tooling like `puppet-lint` and `rspec-puppet`. If you have a plugin you'd like to contribute, please submit a pull request!
 
 ## Table of Contents
+- [Tools](#tools)
 - [Puppet Lint](#puppet-lint-plugins)
+- [RSpec Puppet](#rspec-puppet)
 - [Miscellaneous](#miscellaneous)
+
+## Tools
+| Tool Link | Description |
+| ---       | ---         |
+| [rspec-puppet](https://github.com/rodjek/rspec-puppet/) | RSpec tests for your Puppet manifests. |
+| [puppet-lint](https://github.com/rodjek/puppet-lint/) | Check that your Puppet manifests conform to the style guide |
+| [puppetlabs_spec_helper](https://github.com/puppetlabs/puppetlabs_spec_helper) | Contains rake tasks and a standard spec_helper for running spec tests on puppet modules |
 
 ## Puppet Lint Plugins
 | Plugin Link | Description |
@@ -35,6 +44,14 @@ This is a Puppet Community curated list of plugins for Puppet and related toolin
 | [resource_reference_syntax](https://github.com/tuxmea/puppet-lint-resource_reference_syntax) | Extends puppet-lint to ensure that the reference syntax follows Puppet 4 style. |
 | [undef_in_function](https://github.com/camptocamp/puppet-lint-undef_in_function-check) | A puppet-lint plugin to check for undef in function calls. |
 | [fileserver](https://github.com/camptocamp/puppet-lint-fileserver-check) | A puppet-lint plugin to check if puppet:/// is used instead of file(). |
+
+# RSpec Puppet
+| Plugin Link | Description |
+| ---         | ---         |
+| [rspec-puppet-augeas](https://github.com/domcleal/rspec-puppet-augeas/) | RSpec tests for Augeas resources inside Puppet manifests |
+| [rspec-puppet-utils](https://github.com/Accuity/rspec-puppet-utils) | Helper classes for mock/stub functions, templates and hierdata |
+| [rspec-puppet-facts](https://github.com/mcanevet/rspec-puppet-facts) | Simplify your unit tests by looping on every supported Operating System and populating facts. |
+| [simp-rspec-puppet-facts](https://github.com/simp/rubygem-simp-rspec-puppet-facts) | Shim that injects SIMP-related facts into rspec-puppet-facts. |
 
 # Miscellaneous
 | Plugin Link | Description |
