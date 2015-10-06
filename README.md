@@ -4,9 +4,10 @@ This is a Puppet Community curated list of plugins for Puppet and related toolin
 
 ## Table of Contents
 - [Tools](#tools)
+- [Beaker](#beaker-plugins)
 - [Puppet Lint](#puppet-lint-plugins)
-- [RSpec Puppet](#rspec-puppet)
-- [Miscellaneous](#miscellaneous)
+- [RSpec Puppet](#rspec-puppet-plugins)
+- [Miscellaneous](#miscellaneous-plugins)
 
 ## Tools
 | Tool Link | Description |
@@ -14,6 +15,17 @@ This is a Puppet Community curated list of plugins for Puppet and related toolin
 | [rspec-puppet](https://github.com/rodjek/rspec-puppet/) | RSpec tests for your Puppet manifests. |
 | [puppet-lint](https://github.com/rodjek/puppet-lint/) | Check that your Puppet manifests conform to the style guide |
 | [puppetlabs_spec_helper](https://github.com/puppetlabs/puppetlabs_spec_helper) | Contains rake tasks and a standard spec_helper for running spec tests on puppet modules |
+| [beaker](https://github.com/puppetlabs/beaker) | Puppetlabs accceptance testing harness |
+
+## Beaker Plugins
+| Plugin Link | Description |
+| ---         | ---         |
+| [beaker-librarian](https://github.com/afex/beaker-librarian) | Helpers to allow beaker-based tests to use librarian-puppet for module installation on VM hosts |
+| [beaker_spec_helper](https://github.com/camptocamp/beaker_spec_helper) | A set of shared spec helpers specific for Beaker |
+| [beaker-puppet_install_helper](https://github.com/puppetlabs/beaker-puppet_install_helper) | A beaker helper for installing PE, Foss/Gem puppet, or puppet-agent all in one beaker method. |
+| [beaker-answers](https://github.com/puppetlabs/beaker-answers) | For use for the Beaker acceptance testing tool |
+| [simp-beaker-helpers](https://github.com/simp/rubygem-simp-beaker-helpers) | Beaker helper methods to help scaffold SIMP acceptance tests |
+| [beaker-hiera](https://github.com/puppetlabs/beaker-hiera) | Beaker DSL Extension Helpers! |
 
 ## Puppet Lint Plugins
 | Plugin Link | Description |
@@ -45,7 +57,7 @@ This is a Puppet Community curated list of plugins for Puppet and related toolin
 | [undef_in_function](https://github.com/camptocamp/puppet-lint-undef_in_function-check) | A puppet-lint plugin to check for undef in function calls. |
 | [fileserver](https://github.com/camptocamp/puppet-lint-fileserver-check) | A puppet-lint plugin to check if puppet:/// is used instead of file(). |
 
-# RSpec Puppet
+# RSpec Puppet Plugins
 | Plugin Link | Description |
 | ---         | ---         |
 | [rspec-puppet-augeas](https://github.com/domcleal/rspec-puppet-augeas/) | RSpec tests for Augeas resources inside Puppet manifests |
@@ -53,7 +65,7 @@ This is a Puppet Community curated list of plugins for Puppet and related toolin
 | [rspec-puppet-facts](https://github.com/mcanevet/rspec-puppet-facts) | Simplify your unit tests by looping on every supported Operating System and populating facts. |
 | [simp-rspec-puppet-facts](https://github.com/simp/rubygem-simp-rspec-puppet-facts) | Shim that injects SIMP-related facts into rspec-puppet-facts. |
 
-# Miscellaneous
+# Miscellaneous Plugins
 | Plugin Link | Description |
 | ---         | ---         |
 | [guard-puppet-lint](https://github.com/alister/guard-puppet-lint) | As Puppet manifest files change, run puppet-lint on them. |
