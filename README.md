@@ -26,6 +26,8 @@ This is a Puppet Community curated list of plugins for Puppet and related toolin
 | [beaker-answers](https://github.com/puppetlabs/beaker-answers) | For use for the Beaker acceptance testing tool |
 | [simp-beaker-helpers](https://github.com/simp/rubygem-simp-beaker-helpers) | Beaker helper methods to help scaffold SIMP acceptance tests |
 | [beaker-hiera](https://github.com/puppetlabs/beaker-hiera) | Beaker DSL Extension Helpers! |
+| [beaker-libvirt](https://github.com/nibalizer/beaker-libvirt) | Beaker hypervisor for libvirt/virsh |
+| [beaker-rspec](https://github.com/puppetlabs/beaker-rspec) | Bridge between beaker and rspec |
 
 ## Puppet Lint Plugins
 | Plugin Link | Description |
