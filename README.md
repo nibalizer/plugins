@@ -1,6 +1,6 @@
 # Puppet Plugins
 
-This is a Puppet Community curated list of plugins for Puppet and related tooling like `puppet-lint` and `rspec-puppet`. If you have a Plugin you'd like to contribute, please submit a pull request!
+This is a Puppet Community curated list of plugins for Puppet and related tooling like `puppet-lint` and `rspec-puppet`. If you have a plugin you'd like to contribute, please submit a pull request!
 
 ## Table of Contents
 - [Puppet Lint](#puppet-lint-plugins)
