@@ -1,29 +1,16 @@
 {
   "tools": [
     {
-      "name": "rspec-puppet",
-      "url": "https://github.com/rodjek/rspec-puppet",
-      "description": "RSpec tests for your Puppet manifests."
-    },
-    {
-      "name": "puppet-lint",
-      "url": "https://github.com/rodjek/puppet-lint",
-      "description": "Check that your Puppet manifests conform to the style guide."
-    },
-    {
       "name": "puppetlabs_spec_helper",
+      "display_name": "PuppetLabs Spec Helper",
       "url": "https://github.com/puppetlabs/puppetlabs_spec_helper",
       "description": "Rake tasks and a standard spec_helper for running spec tests on puppet modules."
     },
     {
       "name": "beaker",
+      "display_name": "Beaker",
       "url": "https://github.com/puppetlabs/beaker",
-      "description": "Accceptance testing harness."
-    }
-  ],
-  "plugins": [
-    {
-      "tool_name": "Beaker",
+      "description": "Accceptance testing harness.",
       "plugins": [
         {
           "name": "beaker-librarian",
@@ -68,7 +55,10 @@
       ]
     },
     {
-      "tool_name": "Puppet Lint",
+      "name": "puppet-lint",
+      "display_name": "Puppet Lint",
+      "url": "https://github.com/rodjek/puppet-lint",
+      "description": "Check that your Puppet manifests conform to the style guide.",
       "plugins": [
         {
           "name": "trailing_newline",
@@ -203,7 +193,10 @@
       ]
     },
     {
-      "tool_name": "RSpec Puppet",
+      "name": "rspec-puppet",
+      "display_name": "RSpec Puppet",
+      "url": "https://github.com/rodjek/rspec-puppet",
+      "description": "RSpec tests for your Puppet manifests.",
       "plugins": [
         {
           "name": "rspec-puppet-augeas",
@@ -228,7 +221,9 @@
       ]
     },
     {
-      "tool_name": "Miscellaneous",
+      "name": "miscellaneous",
+      "display_name": "Miscellaneous",
+      "description": "Plugins for tools that aren't strictly for Puppet development.",
       "plugins": [
         {
           "name": "guard-puppet-lint",
