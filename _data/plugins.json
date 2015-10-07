@@ -51,6 +51,11 @@
           "name": "beaker-rspec",
           "url": "https://github.com/puppetlabs/beaker-rspec",
           "description": "Bridge between beaker and rspec."
+        },
+        {
+          "name": "beaker-digitalocean",
+          "url": "https://github.com/tiengo/beaker-digitalocean",
+          "description": "Adds DigitalOcean as a hypervisor for Beaker."
         }
       ]
     },
@@ -272,6 +277,18 @@
       "url": "https://github.com/puppet-community/metadata-json-lint"
     },
     {
+      "name": "puppet-ghostbuster",
+      "display_name": "Ghostbuster",
+      "url": "https://github.com/camptocamp/puppet-ghostbuster",
+      "description": "Dead code detector for Puppet."
+    },
+    {
+      "name": "puppet-strings",
+      "display_name": "Puppet Strings",
+      "description": "The next generation puppet documentation extraction and presentation tool.",
+      "url": "https://github.com/puppetlabs/puppetlabs-strings"
+    },
+    {
       "name": "miscellaneous",
       "display_name": "Miscellaneous",
       "description": "Plugins for tools that aren't strictly for Puppet development.",
@@ -281,11 +298,6 @@
           "url": "https://github.com/alister/guard-puppet-lint",
           "description": "As Puppet manifest files change, run puppet-lint on them."
         },
-        {
-          "name": "puppet-ghostbuster",
-          "url": "https://github.com/camptocamp/puppet-ghostbuster",
-          "description": "Dead code detector for Puppet."
-        }
       ]
     }
   ]
