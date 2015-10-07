@@ -51,6 +51,11 @@
           "name": "beaker-rspec",
           "url": "https://github.com/puppetlabs/beaker-rspec",
           "description": "Bridge between beaker and rspec."
+        },
+        {
+          "name": "beaker-digitalocean",
+          "url": "https://github.com/tiengo/beaker-digitalocean",
+          "description": "Adds DigitalOcean as a hypervisor for Beaker."
         }
       ]
     },
