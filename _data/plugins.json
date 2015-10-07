@@ -289,15 +289,42 @@
       "url": "https://github.com/puppetlabs/puppetlabs-strings"
     },
     {
+      "name": "puppetboard",
+      "display_name": "Puppetboard",
+      "description": "A web interface to PuppetDB aiming to replace the reporting functionality of Puppet Dashboard.",
+      "url": "https://github.com/puppet-community/puppetboard"
+    },
+    {
+      "name": "puppetexplorer",
+      "display_name": "Puppet Explorer",
+      "description": "Puppet Explorer is a web application for PuppetDB that lets you explore your Puppet data.",
+      "url": "https://github.com/spotify/puppetexplorer"
+    },
+    {
       "name": "miscellaneous",
       "display_name": "Miscellaneous",
-      "description": "Plugins for tools that aren't strictly for Puppet development.",
+      "description": "Plugins/libraries for tools that don't fit anywhere else.",
       "plugins": [
         {
           "name": "guard-puppet-lint",
           "url": "https://github.com/alister/guard-puppet-lint",
           "description": "As Puppet manifest files change, run puppet-lint on them."
         },
+        {
+          "name": "node-puppetdbquery",
+          "url": "https://github.com/dalen/node-puppetdbquery",
+          "description": "A JavaScript version of the puppetdbquery module for puppet."
+        },
+        {
+          "name": "pypuppetdb",
+          "url": "https://github.com/puppet-community/pypuppetdb",
+          "description": "Python library for working with the PuppetDB API"
+        },
+        {
+          "name": "puppet-ghostbuster",
+          "url": "https://github.com/camptocamp/puppet-ghostbuster",
+          "description": "Dead code detector for Puppet."
+        }
       ]
     }
   ]
