@@ -271,6 +271,12 @@
       ]
     },
     {
+      "name": "puppet-ghostbuster",
+      "display_name": "Ghostbuster",
+      "url": "https://github.com/camptocamp/puppet-ghostbuster",
+      "description": "Dead code detector for Puppet."
+    },
+    {
       "name": "puppet-strings",
       "display_name": "Puppet Strings",
       "description": "The next generation puppet documentation extraction and presentation tool.",
@@ -286,11 +292,6 @@
           "url": "https://github.com/alister/guard-puppet-lint",
           "description": "As Puppet manifest files change, run puppet-lint on them."
         },
-        {
-          "name": "puppet-ghostbuster",
-          "url": "https://github.com/camptocamp/puppet-ghostbuster",
-          "description": "Dead code detector for Puppet."
-        }
       ]
     }
   ]
