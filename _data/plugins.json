@@ -248,6 +248,19 @@
       ]
     },
     {
+      "name": "modulesync",
+      "display_name": "ModuleSync",
+      "url": "https://github.com/puppet-community/modulesync",
+      "description": "Keep a set of modules synced to a common base template.",
+      "plugins": [
+        {
+          "name": "PuppetLabs' configs",
+          "url": "https://github.com/puppetlabs/modulesync_configs",
+          "description": "The templates used by most of PuppetLabs' supported modules."
+        }
+      ]
+    },
+    {
       "name": "miscellaneous",
       "display_name": "Miscellaneous",
       "description": "Plugins for tools that aren't strictly for Puppet development.",
