@@ -221,6 +221,18 @@
       ]
     },
     {
+      "name": "r10k",
+      "display_name": "R10k",
+      "description": "Puppet environment and module deployment.",
+      "plugins": [
+        {
+          "name": "Puppetfile updater",
+          "url": "https://github.com/camptocamp/puppetfile-updater",
+          "description": "Keep your Puppetfile up-to-date."
+        }
+      ]
+    },
+    {
       "name": "miscellaneous",
       "display_name": "Miscellaneous",
       "description": "Plugins for tools that aren't strictly for Puppet development.",
