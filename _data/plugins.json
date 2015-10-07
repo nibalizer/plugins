@@ -266,6 +266,12 @@
       ]
     },
     {
+      "name": "metadata-json-lint",
+      "display_name": "Metadata JSON Lint",
+      "description": "A linter for your metadata.json file.",
+      "url": "https://github.com/puppet-community/metadata-json-lint"
+    },
+    {
       "name": "miscellaneous",
       "display_name": "Miscellaneous",
       "description": "Plugins for tools that aren't strictly for Puppet development.",
