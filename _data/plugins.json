@@ -301,6 +301,19 @@
       "url": "https://github.com/spotify/puppetexplorer"
     },
     {
+      "name": "puppet catalog diff",
+      "display_name": "Puppet Catalog Diff",
+      "description": "Tool to diff Puppet catalogs.",
+      "url": "https://github.com/acidprime/puppet-catalog-diff",
+      "plugins": [
+        {
+          "name": "puppet-catalog-diff-viewer",
+          "url": "https://github.com/camptocamp/puppet-catalog-diff-viewer",
+          "description": "A viewer for the puppet-catalog-diff tool."
+        }
+      ]
+    },
+    {
       "name": "miscellaneous",
       "display_name": "Miscellaneous",
       "description": "Plugins/libraries for tools that don't fit anywhere else.",
