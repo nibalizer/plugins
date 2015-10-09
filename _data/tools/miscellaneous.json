@@ -1,0 +1,12 @@
+{
+  "name": "miscellaneous",
+  "display_name": "Miscellaneous",
+  "description": "Plugins for tools that aren't strictly for Puppet development.",
+  "plugins": [
+    {
+      "name": "guard-puppet-lint",
+      "url": "https://github.com/alister/guard-puppet-lint",
+      "description": "As Puppet manifest files change, run puppet-lint on them."
+    },
+  ]
+}
