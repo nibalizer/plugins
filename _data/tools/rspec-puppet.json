@@ -5,6 +5,11 @@
   "description": "RSpec tests for your Puppet manifests.",
   "plugins": [
     {
+      "name": "rspec-hiera-puppet",
+      "url": "https://github.com/amfranz/rspec-hiera-puppet",
+      "description": "Hiera fixtures for puppet-rspec tests."
+    },
+    {
       "name": "rspec-puppet-augeas",
       "url": "https://github.com/domcleal/rspec-puppet-augeas",
       "description": "RSpec tests for Augeas resources inside Puppet manifests."
