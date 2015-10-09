@@ -7,7 +7,7 @@
     {
       "name": "Community configs",
       "url": "https://github.com/puppet-community/modulesync_configs",
-      "description": "The templates used by the puppet-community modules",
+      "description": "The templates used by the puppet-community modules"
     },
     {
       "name": "PuppetLabs' configs",
