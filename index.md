@@ -4,10 +4,9 @@ layout: minimal
 # Table of Contents
 <ul>
   <li><a href="#tools">Tools</a></li>
-{% assign sorted_toc_tools = site.data.plugins.tools | sort: 'name' %}
-{% for tool in sorted_toc_tools %}
-  {% assign link = tool.display_name | split: ' ' | join: '-' %}
-  {% if tool.plugins %}<li><a href="#{{link | downcase}}">{{tool.display_name}} Plugins</a></li>{%endif%}
+{% for tool in site.data.tools %}
+  {% assign link = tool[1].display_name | split: ' ' | join: '-' %}
+  {% if tool[1].plugins %}<li><a href="#{{link | downcase}}">{{tool[1].display_name}} Plugins</a></li>{%endif%}
 {% endfor %}
 </ul>
 
@@ -22,28 +21,26 @@ Useful tools when writing Puppet.
   </tr>
   </thead>
   <tbody>
-  {% assign sorted_tools = site.data.plugins.tools | sort: 'name' %}
-  {% for tool in sorted_tools %}
-  {% if tool.url %}
+  {% for tool in site.data.tools %}
+  {% if tool[1].url %}
   <tr>
-    {% if tool.display_name %}
-    {% assign display_name = tool.display_name %}
+    {% if tool[1].display_name %}
+    {% assign display_name = tool[1].display_name %}
     {% else %}
-    {% assign display_name = tool.name %}
+    {% assign display_name = tool[1].name %}
     {% endif %}
-    <td><a href="{{tool.url}}">{{ display_name }}</a></td>
-    <td>{{tool.description}}</td>
+    <td><a href="{{tool[1].url}}">{{ display_name }}</a></td>
+    <td>{{tool[1].description}}</td>
   </tr>
   {% endif %}
   {% endfor %}
   </tbody>
 </table>
 
-{% assign sorted_tools = site.data.plugins.tools | sort: 'name' %}
-{% for tool in sorted_tools %}
-{% if tool.plugins %}
-# {{ tool.display_name }}
-{% if tool.description %}{{tool.description}}{%endif%}
+{% for tool in site.data.tools %}
+{% if tool[1].plugins %}
+# {{ tool[1].display_name }}
+{% if tool[1].description %}{{tool[1].description}}{%endif%}
 <table>
   <thead>
   <tr>
@@ -52,7 +49,7 @@ Useful tools when writing Puppet.
   </tr>
   </thead>
   <tbody>
-  {% assign sorted_plugins = tool.plugins | sort: 'name' %}
+  {% assign sorted_plugins = tool[1].plugins | sort: 'name' %}
   {% for plugin in sorted_plugins %}
   <tr>
     <td><a href="{{plugin.url}}">{{plugin.name}}</a></td>
